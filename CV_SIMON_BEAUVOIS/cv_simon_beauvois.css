@@ -105,89 +105,90 @@ hr {
 }
 
 
+
 /* Sur les écrans, quand la largeur de la fenêtre fait au minimum 1200px */
-@media screen and (min-width: 1200px)
-{
-	p
-    {
-        color: red; 
-        background-color: black;
-        font-size: 1.2em;
-    }
-	body
-	{
-		text-align: center;			
-	}
-}
+/* @media screen and (min-width: 1200px) */
+/* { */
+	/* p */
+    /* { */
+        /* color: red;  */
+        /* background-color: black; */
+        /* font-size: 1.2em; */
+    /* } */
+	/* body */
+	/* { */
+		/* text-align: center;			 */
+	/* } */
+/* } */
 
 /* Sur les écrans, quand la largeur de la fenêtre est inférieur à 600px */
-@media screen and (max-width: 599px)
-{
-		p
-    {
-        color: blue; 
-        background-color: black;
-        font-size: 1.2em;
-    }
-		body
-	{
-		text-align: center;	
-	}	
-		h1
-	{
-		font-size: 55px;
-		font-weight: 200;
-		color: orangered;			
-	}
-		h2
-	{
-		color: red;
-		font-size: 30px;
-		font-weight: 400;		
-	}	
-}
+/* @media screen and (max-width: 599px) */
+/* { */
+		/* p */
+    /* { */
+        /* color: blue;  */
+        /* background-color: black; */
+        /* font-size: 1.2em; */
+    /* } */
+		/* body */
+	/* { */
+		/* text-align: center;	 */
+	/* }	 */
+		/* h1 */
+	/* { */
+		/* font-size: 55px; */
+		/* font-weight: 200; */
+		/* color: orangered;			 */
+	/* } */
+		/* h2 */
+	/* { */
+		/* color: red; */
+		/* font-size: 30px; */
+		/* font-weight: 400;		 */
+	/* }	 */
+/* } */
 
 /* Sur les écrans, quand la largeur de la fenêtre est supérieur à 600px */
-@media screen and (min-width: 600px)
-{
-		h1
-	{
-		font-size: 55px;
-		font-weight: 200;
-		text-align: center;
-	}	
-		h2
-	{
-		color: red;
-		font-size: 30px;
-		font-weight: 400;	
-		text-align: center;		
-	}		
-		p
-    {
-        color: orange; 
-        background-color: black;
-        font-size: 1.2em;
-    }
-		body
-	{
-		text-align: center;			
-	}	
-}
+/* @media screen and (min-width: 600px) */
+/* { */
+		/* h1 */
+	/* { */
+		/* font-size: 55px; */
+		/* font-weight: 200; */
+		/* text-align: center; */
+	/* }	 */
+		/* h2 */
+	/* { */
+		/* color: red; */
+		/* font-size: 30px; */
+		/* font-weight: 400;	 */
+		/* text-align: center;		 */
+	/* }		 */
+		/* p */
+    /* { */
+        /* color: orange;  */
+        /* background-color: black; */
+        /* font-size: 1.2em; */
+    /* } */
+		/* body */
+	/* { */
+		/* text-align: center;			 */
+	/* }	 */
+/* } */
 /* Sur les écrans, quand la largeur de la fenêtre est supérieur à 992px */
-@media screen and (min-width: 992px)
-{
-		p
-    {
-        color: Purple; 
-        background-color: black;
-        font-size: 1.2em;
-    }
-		body	
-	{	
-		text-align: center;		
-	}	
-}
+/* @media screen and (min-width: 992px) */
+/* { */
+		/* p */
+    /* { */
+        /* color: Purple;  */
+        /* background-color: black; */
+        /* font-size: 1.2em; */
+    /* } */
+		/* body	 */
+	/* {	 */
+		/* text-align: center;		 */
+	/* }	 */
+/* } */
 
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px 
 @media all and (min-width: 1024px) and (max-width: 1280px)
